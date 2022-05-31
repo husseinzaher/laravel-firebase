@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "kreait/laravel-firebase": "dev-main",
+        "kreait/laravel-php": "dev-main",
         "illuminate/contracts": "^8.0 || ^9.0",
         "illuminate/support": "^8.0 || ^9.0",
         "symfony/cache": "^5.4 || ^6.0"
