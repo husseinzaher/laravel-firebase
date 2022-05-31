@@ -24,7 +24,7 @@
       "type": "package",
       "package": {
         "name": "kreait/firebase-php",
-        "version": "master",
+        "version": "dev-master",
         "source": {
           "url": "https://github.com/husseinzaher/firebase-php.git",
           "type": "git",
