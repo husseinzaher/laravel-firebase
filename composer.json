@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "kreait/firebase-php": "dev-master",
+        "kreait/firebase-php": "^6.x-dev",
         "illuminate/contracts": "^8.0 || ^9.0",
         "illuminate/support": "^8.0 || ^9.0",
         "symfony/cache": "^5.4 || ^6.0"
@@ -39,7 +39,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "6.x-dev"
+            "dev-main": "3.x-dev"
         },
         "laravel": {
             "providers": [
