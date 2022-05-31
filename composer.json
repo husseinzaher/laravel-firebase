@@ -21,13 +21,21 @@
   ],
   "repositories": [
     {
-      "type": "vcs",
-      "url": "https://github.com/husseinzaher/firebase-php.git"
+      "type": "package",
+      "package": {
+        "name": "kreait/firebase-php",
+        "version": "master",
+        "source": {
+          "url": "https://github.com/husseinzaher/firebase-php.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
     }
   ],
   "require": {
     "php": "^7.4 || ^8.0",
-    "kreait/firebase-php": "dev-master#^6.x-dev",
+    "kreait/firebase-php": "dev-master",
     "illuminate/contracts": "^8.0 || ^9.0",
     "illuminate/support": "^8.0 || ^9.0",
     "symfony/cache": "^5.4 || ^6.0"
